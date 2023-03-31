@@ -1,4 +1,6 @@
-public static void main(String args[]) {
+import java.util.*;
+public class ATMInterface{
+    public static void main(String args[]) {
     
     int balance = 100000, withdraw, deposit;
     String userID, userPIN;
@@ -102,3 +104,6 @@ public static void main(String args[]) {
         }
     }
 }
+}
+}
+       
